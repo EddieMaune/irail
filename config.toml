@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = ""
 languageCode = "en-us"
 DefaultContentLanguage = "en"
 title = "iRail"
@@ -40,7 +40,7 @@ summaryLength = 10
 # Site params
 [params]
 home= "Home"
-logo = "images/logo.png"
+logo = "logo.png"
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
 # Meta data
 description = "Responsive Multipurpose Parallax HTML5 Template"
