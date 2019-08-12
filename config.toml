@@ -23,16 +23,6 @@ summaryLength = 10
     weight = 3
 
     [[menu.nav]]
-    name = "Portfolio"
-    URL = "portfolio"
-    weight = 4
-
-    [[menu.nav]]
-    name = "Team"
-    URL = "our-team"
-    weight = 5
-
-    [[menu.nav]]
     name = "Contact"
     URL = "contact-us"
     weight = 8
@@ -40,7 +30,7 @@ summaryLength = 10
 # Site params
 [params]
 home= "Home"
-logo = "logo.png"
+logo = "footer.png"
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
 # Meta data
 description = "Responsive Multipurpose Parallax HTML5 Template"
@@ -60,13 +50,6 @@ custom_css = ["css/custom.css"]
     btnText="Explore Us"
     btnURL="#services"
 
-    # call to action
-    [params.cta]
-    enable = true
-    title = "Great Design & Incredible Features"
-    content = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi nostrum."
-    btnURL = "#"
-    btnText = "Start a project with us"
 
     # counter
     [params.counter]

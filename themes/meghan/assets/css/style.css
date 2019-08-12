@@ -161,11 +161,11 @@ a:hover {
   position: absolute;
   top: -4px;
   width: 50px;
-  background-color: #57cbcc;
+  background-color: #aca900;
 }
 
 .color {
-  color: #6CB670;
+  color: #aca900;
 }
 
 .sub-title {
@@ -413,7 +413,7 @@ a:hover {
 }
 
 .title h2 span {
-  color: #57cbcc;
+  color: #aca900;
 }
 
 .title p {
@@ -847,7 +847,7 @@ a:hover {
 .form-meghna input:hover,
 .form-meghna textarea:hover,
 #contact-submit:hover {
-  border-color: #57cbcc;
+  border-color: #d8d400;
 }
 
 .form-meghna ::placeholder
@@ -857,7 +857,7 @@ a:hover {
 
 #contact-submit {
   border: 1px solid rgba(236, 239, 241, 0.07);
-  background: #57cbcc;
+  background: #aca900;
   padding: 12px 0;
   width: 100%;
   margin: 0;
@@ -1659,7 +1659,7 @@ input#e-mail, #hidden_iframe {
 }
 
 .social-icon ul li:hover a {
-  background-color: #57cbcc;
+  background-color: #d8d400;
   -webkit-transform: rotateY(0deg);
   transform: rotateY(0deg);
 }
