@@ -2,7 +2,7 @@ baseURL = ""
 languageCode = "en-us"
 DefaultContentLanguage = "en"
 title = "iRail"
-theme = "meghan"
+theme = "meghna-hugo"
 summaryLength = 10
 
 [taxonomies]
