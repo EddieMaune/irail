@@ -3,25 +3,21 @@ heading : Our
 headingSpan : Services
 serviceItem :
   - icon : tf-globe
-    title : WordPress Theme
+    title : Civil
     content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
     
   - icon : tf-ion-laptop
-    title : Responsive Design
+    title : Track
     content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
     
   - icon : tf-genius
-    title : Media &amp; Advertisement
+    title : Roads
     content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
     
   - icon : tf-dial
-    title : Graphic Design
+    title : OHTE
     content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
     
   - icon : tf-target3
-    title : Apps Development
-    content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
-    
-  - icon : tf-lifesaver
-    title : Networking
+    title : Consulting
     content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
