@@ -966,6 +966,10 @@ a:hover {
   padding: 0;
 }
 
+.list-inline-item{
+  border-radius: 60px;
+}
+
 .pricing li {
   padding: 10px 0;
 }
@@ -1648,6 +1652,7 @@ input#e-mail, #hidden_iframe {
 ==================================================================*/
 .social-icon {
   padding: 60px 0 35px;
+
 }
 
 .social-icon ul {
@@ -1673,6 +1678,7 @@ input#e-mail, #hidden_iframe {
 }
 
 .social-icon ul li a {
+  border-radius: 5px;
   background-color: #26292e;
   border: 1px solid transparent;
   display: block;
