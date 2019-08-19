@@ -20,7 +20,14 @@
                         <i class="{{ .icon }}"></i>
                     </div>
                     <h3>{{ .title }}</h3>
-                    <p>{{ .content }}</p>
+                    <ol>
+                    {{range .list}}
+                    
+                        <li>{{.item}}</li>
+                    
+                        {{ end }}
+                        </ol>
+                 <!-- <p>{{ .content }}</p> -->
                 </div>
             </article>
             {{"<!-- End Single Service Item -->" | safeHTML }}

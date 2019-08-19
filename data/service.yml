@@ -2,19 +2,43 @@ enable : true
 heading : Our
 headingSpan : Services
 serviceItem :
-  - icon : tf-globe
-    title : Civil
-    content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
-    
-  - icon : tf-ion-laptop
+  - icon : tf-ion-android-train
     title : Track
     content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
-    
-  - icon : tf-genius
+    list :
+      - item : Railway Construction & maintenance (e.g. Straight line, Turnouts/sets, and curves
+      
+      - item : Railway maintenance (e.g. Repair of horizontal and vertical misalignment, Rail Distressing, Gauge widening, replacement of rails, sleepers and fasteners
+
+      - item :  Building and maintenance of drainage systems, Embankments, Cuttings and Culverts.
+
+      - item : Building and maintenance of level crossing.
+      
+      - item : Other Tack related works
+
+      - item : Track condition assessments
+
+      - item :  Civil Works (e.g. Fourmation rehabilitation... etc).
+
+      - item :  Painting of must poles (numbers & kilometer) 
+
+      - item : Fencing.
+
+      - item : Clearing poisoning of unwanted whight.
+
+  - icon : tf-ion-home
+    title : Civil
+    content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+    list : 
+       - item : Railway Construction & maintenance (e.g. Straight line, Turnouts/sets, and curves.
+
+       - item : cool
+
+  - icon : tf-ion-android-car
     title : Roads
     content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
     
-  - icon : tf-dial
+  - icon : tf-tools-2
     title : OHTE
     content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
     
