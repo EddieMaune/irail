@@ -13,6 +13,10 @@
             {{"<!-- /section title -->" | safeHTML }}
 
             {{ range .Site.Data.service.serviceItem}}
+
+            {{$min := int .min}}
+            {{$max := int .max}}
+            {{$title := .title}}
             {{"<!-- Single Service Item -->" | safeHTML }}
             <article class="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-duration="500ms">
                 <div class="service-block text-center">
@@ -22,41 +26,44 @@
                     <h3>{{ .title }}</h3>
                     <div class="carousel">
                             <div class="carousel-inner">
-                                <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden  checked="checked">
+                                {{$i := $min}}
+                                {{range .list}}
+                                <input class="carousel-open" type="radio" id="carousel-{{$i}}" name="carousel-{{$title}}" aria-hidden="true" hidden  checked="checked">
                                 <div class="carousel-element">
                         
-                                    Railway Construction (e.g. Straight line, Turnouts/sets, and curves
+                                    {{.item}}
                                 </div>
-                                <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden >
-                                <div class="carousel-element">
                                 
-                                    Railway maintenance (e.g. Repair of horizontal and vertical misalignment, Rail Distressing, Gauge widening, replacement of rails, sleepers and fasteners
-                                </div>
-                                <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden >
-                                <div class="carousel-element">
-                                
-                                    Building and maintenance of drainage systems, Embankments, Cuttings and Culverts.
-                                </div>
-                                <label for="carousel-3" class="carousel-control prev control-1">‹</label>
-                                <label for="carousel-2" class="carousel-control next control-1">›</label>
-                                <label for="carousel-1" class="carousel-control prev control-2">‹</label>
-                                <label for="carousel-3" class="carousel-control next control-2">›</label>
-                                <label for="carousel-2" class="carousel-control prev control-3">‹</label>
-                                <label for="carousel-1" class="carousel-control next control-3">›</label>
+                                    {{$i = add $i 1}}
+                                {{end}}
+                                {{$i = $min}}
+
+                                {{range .list}}
+                                    {{$prev := sub $i 1}}
+                                    {{$next := add $i 1}}
+                                    {{if eq $prev (sub $min 1)}}
+                                        {{$prev = $max}}
+                                    {{end}}
+                                    {{if eq $i $max}}
+                                        {{$next = $min}}
+                                        {{end}}
+
+                                <label for="carousel-{{$prev}}" class="carousel-control prev control-{{$i}}">‹</label>
+                                <label for="carousel-{{$next}}" class="carousel-control next control-{{$i}}">›</label>
+
+                                {{$i = add $i 1}}
+                                {{end}}
                                 <ol class="my-carousel-indicators">
+                                    {{$i = $min}}
+                                    {{range .list}}
                                     <li>
-                                        <label for="carousel-1" class="carousel-bullet">•</label>
+                                        <label for="carousel-{{$i}}" class="carousel-bullet">•</label>
                                     </li>
-                                    <li>
-                                        <label for="carousel-2" class="carousel-bullet">•</label>
-                                    </li>
-                                    <li>
-                                        <label for="carousel-3" class="carousel-bullet">•</label>
-                                    </li>
+                                    {{$i = add $i 1}}
+                                   {{end}}
                                 </ol>
                             </div>
                         </div>
-                 <!-- <p>{{ .content }}</p> -->
                 </div>
             </article>
             {{"<!-- End Single Service Item -->" | safeHTML }}

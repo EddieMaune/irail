@@ -2469,7 +2469,24 @@ background-color: #FF6600
 
 #carousel-1:checked ~ .control-1,
 #carousel-2:checked ~ .control-2,
-#carousel-3:checked ~ .control-3 {
+#carousel-3:checked ~ .control-3,
+
+#carousel-4:checked ~ .control-4,
+#carousel-5:checked ~ .control-5,
+#carousel-6:checked ~ .control-6,
+
+#carousel-7:checked ~ .control-7,
+#carousel-8:checked ~ .control-8,
+#carousel-9:checked ~ .control-9,
+
+#carousel-10:checked ~ .control-10,
+#carousel-11:checked ~ .control-11,
+#carousel-12:checked ~ .control-12,
+
+#carousel-13:checked ~ .control-13,
+#carousel-14:checked ~ .control-14,
+#carousel-15:checked ~ .control-15
+ {
     display: block;
 }
 
@@ -2495,7 +2512,7 @@ background-color: #FF6600
     cursor: pointer;
     display: block;
     font-size: 50px;
-    padding-right: 10px;
+    padding-right: 0px;
 }
 
 .carousel-bullet:hover {
@@ -2506,7 +2523,27 @@ background-color: #FF6600
 
 #carousel-1:checked ~ .control-1 ~ .my-carousel-indicators li:nth-child(1) .carousel-bullet,
 #carousel-2:checked ~ .control-2 ~ .my-carousel-indicators li:nth-child(2) .carousel-bullet,
-#carousel-3:checked ~ .control-3 ~ .my-carousel-indicators li:nth-child(3) .carousel-bullet {
+#carousel-3:checked ~ .control-3 ~ .my-carousel-indicators li:nth-child(3) .carousel-bullet,
+
+#carousel-4:checked ~ .control-4 ~ .my-carousel-indicators li:nth-child(4) .carousel-bullet,
+#carousel-5:checked ~ .control-5 ~ .my-carousel-indicators li:nth-child(5) .carousel-bullet,
+#carousel-6:checked ~ .control-6 ~ .my-carousel-indicators li:nth-child(6) .carousel-bullet
+
+#carousel-7:checked ~ .control-7 ~ .my-carousel-indicators li:nth-child(7) .carousel-bullet,
+#carousel-8:checked ~ .control-8 ~ .my-carousel-indicators li:nth-child(8) .carousel-bullet,
+#carousel-9:checked ~ .control-9 ~ .my-carousel-indicators li:nth-child(9) .carousel-bullet,
+
+#carousel-10:checked ~ .control-10 ~ .my-carousel-indicators li:nth-child(10) .carousel-bullet,
+#carousel-11:checked ~ .control-11 ~ .my-carousel-indicators li:nth-child(11) .carousel-bullet,
+#carousel-12:checked ~ .control-12 ~ .my-carousel-indicators li:nth-child(12) .carousel-bullet,
+
+#carousel-13:checked ~ .control-13 ~ .my-carousel-indicators li:nth-child(13) .carousel-bullet,
+#carousel-14:checked ~ .control-14 ~ .my-carousel-indicators li:nth-child(14) .carousel-bullet,
+#carousel-15:checked ~ .control-15 ~ .my-carousel-indicators li:nth-child(15) .carousel-bullet
+
+
+
+ {
     color: #aca900;
 }
 

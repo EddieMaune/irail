@@ -4,43 +4,58 @@ headingSpan : Services
 serviceItem :
   - icon : tf-ion-android-train
     title : Track
-    content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+    min : 1
+    max : 9 
     list :
       - item : Railway Construction (e.g. Straight line, Turnouts/sets, and curves
       
       - item : Railway maintenance (e.g. Repair of horizontal and vertical misalignment, Rail Distressing, Gauge widening, replacement of rails, sleepers and fasteners
 
       - item :  Building and maintenance of drainage systems, Embankments, Cuttings and Culverts.
-
+     
       - item : Building and maintenance of level crossing.
-      
-      - item : Other Tack related works
+
+      - item : Other Track related works
 
       - item : Track condition assessments
 
-      - item :  Civil Works (e.g. Fourmation rehabilitation... etc).
+      - item : Civil Works (e.g. Fourmation rehabilitation etc)
+      
+      - item :  Painting of must poles (numbers & kilometer) & Fencing. 
 
-      - item :  Painting of must poles (numbers & kilometer) 
+      - item : Clearing poisoning of unwanted whight
 
-      - item : Fencing.
+  - icon : tf-tools-2
+    title : OHTE (Over Head Traction Equipment)
+    min : 10
+    max : 11
+    list :
+      - item : Construction, Inspection and Maintenance of the OHTE
+      
+      - item : Replacement of different OHTE apparatuses (e.g. Brackets, insulators and isolators... etc)
 
-      - item : Clearing poisoning of unwanted whight.
+  - icon : tf-ion-android-car
+    title : Roads
+    min: 13
+    max: 15
+    list :
+      - item : Construction, Inspection and Maintenance of the OHTE
+      
+      - item : Replacement of different OHTE apparatuses (e.g. Brackets, insulators and isolators... etc)
 
-  # - icon : tf-ion-home
-  #   title : Civil
-  #   content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
-  #   list : 
-  #      - item : Railway Construction & maintenance (e.g. Straight line, Turnouts/sets, and curves.
+  - icon : tf-ion-home
 
-  #      - item : cool
+    title : General
+    min : 16
+    max : 18
+    list : 
+       - item : Building Construction, Inspection maintenance and renovations(Tailling, Plambing, Gardening, Wall plastering and Painting, Car ports, Driveway paving and primise wiring.
 
-  # - icon : tf-ion-android-car
-  #   title : Roads
-  #   content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+       - item : Bridge Construction, inspection and maintenance
+
+  
     
-  # - icon : tf-tools-2
-  #   title : OHTE
-  #   content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+  
     
   # - icon : tf-target3
   #   title : Consulting
