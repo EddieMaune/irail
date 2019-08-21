@@ -26,22 +26,22 @@ serviceItem :
 
       - item : Clearing poisoning of unwanted whight.
 
-  - icon : tf-ion-home
-    title : Civil
-    content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
-    list : 
-       - item : Railway Construction & maintenance (e.g. Straight line, Turnouts/sets, and curves.
+  # - icon : tf-ion-home
+  #   title : Civil
+  #   content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+  #   list : 
+  #      - item : Railway Construction & maintenance (e.g. Straight line, Turnouts/sets, and curves.
 
-       - item : cool
+  #      - item : cool
 
-  - icon : tf-ion-android-car
-    title : Roads
-    content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+  # - icon : tf-ion-android-car
+  #   title : Roads
+  #   content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
     
-  - icon : tf-tools-2
-    title : OHTE
-    content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+  # - icon : tf-tools-2
+  #   title : OHTE
+  #   content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
     
-  - icon : tf-target3
-    title : Consulting
-    content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+  # - icon : tf-target3
+  #   title : Consulting
+  #   content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
