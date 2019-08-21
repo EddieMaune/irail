@@ -37,17 +37,15 @@ serviceItem :
   - icon : tf-ion-android-car
     title : Roads
     min: 13
-    max: 15
+    max: 13
     list :
-      - item : Construction, Inspection and Maintenance of the OHTE
-      
-      - item : Replacement of different OHTE apparatuses (e.g. Brackets, insulators and isolators... etc)
+      - item : . Construction, Inspection and maintenance of the road (potholes, storm water's, road lines..... etc) 
 
   - icon : tf-ion-home
 
     title : General
-    min : 16
-    max : 18
+    min : 14
+    max : 15
     list : 
        - item : Building Construction, Inspection maintenance and renovations(Tailling, Plambing, Gardening, Wall plastering and Painting, Car ports, Driveway paving and primise wiring.
 
