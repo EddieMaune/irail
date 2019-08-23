@@ -94,18 +94,8 @@ custom_css = ["css/custom.css"]
         url = "#"
 
         [[params.footer.socialIcon]]
-        icon = "tf-ion-social-youtube"
-        url = "#"
-
-        [[params.footer.socialIcon]]
         icon = "tf-ion-social-linkedin"
         url = "#"
 
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-dribbble-outline"
-        url = "#"
 
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-pinterest-outline"
-        url = "#"
 

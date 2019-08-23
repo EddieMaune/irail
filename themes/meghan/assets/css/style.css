@@ -2409,7 +2409,7 @@ background-color: #FF6600
     position: relative;
     overflow: hidden;
     width: 100%;
-    min-height: 300px;
+    min-height: 180px;
 }
 
 .carousel-open:checked + .carousel-element {

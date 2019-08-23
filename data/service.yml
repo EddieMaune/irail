@@ -26,7 +26,7 @@ serviceItem :
       - item : Clearing poisoning of unwanted whight
 
   - icon : tf-tools-2
-    title : OHTE (Over Head Traction Equipment)
+    title : OHTE 
     min : 10
     max : 11
     list :
